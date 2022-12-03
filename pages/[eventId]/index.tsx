@@ -10,14 +10,17 @@ export type OneEventType = {
 
 
 function EventDetails({data}:OneEventType){
-  const {image, title, description,address} = data
+  const {image, title, description,address, date,tags} = data
     return(
         <div>
             <EventDetail
                 image={image}
                 title={title}
                 description={description}
-                address={address}/>
+                address={address}
+                date={date}
+                tags={tags}
+            />
         </div>
     )
 }
@@ -55,7 +58,10 @@ export const getStaticProps: GetStaticProps = async ( context) => { // must be a
                 title:selectedEvent?.title,
                 image:selectedEvent?.image,
                 description:selectedEvent?.description,
-                address:selectedEvent?.address
+                address:selectedEvent?.address,
+                date:selectedEvent?.date,
+                tags:selectedEvent?.tags
+
             }
         },
     };

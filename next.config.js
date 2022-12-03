@@ -4,4 +4,11 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = nextConfig
+module.exports = module.exports = {
+  experimental: {
+    swcPlugins: [
+      ['next-superjson-plugin', {}],
+    ],
+  },
+
+}
