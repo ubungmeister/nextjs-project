@@ -8,7 +8,7 @@ function EventDetail(props:EventType){
     return(
         <div className='container mx-auto md:px-2 py-16 w-1/2'>
             <h1 className='my-4 text-center font-normal text-2xl'>{title}</h1>
-            <img src={image} alt='picture'/>
+            <Image src={image} alt='picture' height={650} width={700}/>
             <div className=' my-4 grid md:grid-cols-2 border-y border-gray-200'>
                 <span className='my-2 divide-y'><span className='font-semibold'>Address</span>: {address}</span>
                 <span className='my-2 divide-y'><span className='font-semibold'>Date</span>: {localDate}</span>

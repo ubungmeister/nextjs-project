@@ -9,6 +9,7 @@ module.exports = module.exports = {
     swcPlugins: [
       ['next-superjson-plugin', {}],
     ],
-  },
-
+  },images: {
+    domains: ["unsplash.com", "goout.net"]
+  }
 }
