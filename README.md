@@ -1,6 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## 3 pages Event app on Nextjs + Typescript / MongoDB / Tailwindcss. 
+
+
+<img width="755" alt="snip" src="https://user-images.githubusercontent.com/106166590/206205997-3eab641b-0779-4404-b381-a901dd6f92d1.png">
+<img width="755" alt="snip2" src="https://user-images.githubusercontent.com/106166590/206206077-92841adb-9bb2-46ff-bbb0-eeb5d6ce8846.png">
+<img width="755" alt="snip3" src="https://user-images.githubusercontent.com/106166590/206206119-6b2ba6a4-6986-479b-8691-bf7eb893c7a5.png">
+
+
+
+### Getting Started
 
 First, run the development server:
 
